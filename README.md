@@ -1,6 +1,6 @@
 # QuickLink - A SwiftUI URL Preview App
 
-Linkify is a simple SwiftUI app that allows users to enter a URL in a text field, displays a clickable label, and opens the link in a web view when clicked. 
+QuickLink is a simple SwiftUI app that allows users to enter a URL in a text field, displays a clickable label, and opens the link in a web view when clicked. 
 
 ## Features
 
@@ -10,8 +10,9 @@ Linkify is a simple SwiftUI app that allows users to enter a URL in a text field
 - Opens the link in an embedded web view
 
 ## Screenshots
-![Simulator Screen Shot - iPhone 13 Pro Max - 2024-11-11 at 12 02 32](https://github.com/user-attachments/assets/cf3af6c3-dd1b-4595-80a6-25b70f003334)
-![Simulator Screen Shot - iPhone 13 Pro Max - 2024-11-11 at 12 02 46](https://github.com/user-attachments/assets/06b7c04b-1fb5-44c9-a793-2e3daaea68f2)
+![Simulator Screen Shot - iPhone 13 Pro Max - 2024-11-11 at 12 02 32](https://github.com/user-attachments/assets/6011fa89-fe0c-4f66-ae82-19cec982920f)
+
+![Simulator Screen Shot - iPhone 13 Pro Max - 2024-11-11 at 12 02 46](https://github.com/user-attachments/assets/90b682aa-5b03-4b38-9954-984a8baf620e)
 
 
 
