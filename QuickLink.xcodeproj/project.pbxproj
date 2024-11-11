@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EC809002CDCC8E9009E7BBB /* QuickLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC808FF2CDCC8E9009E7BBB /* QuickLinkApp.swift */; };
+		5EC809022CDCC8E9009E7BBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC809012CDCC8E9009E7BBB /* ContentView.swift */; };
+		5EC809042CDCC8F0009E7BBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC809032CDCC8F0009E7BBB /* Assets.xcassets */; };
+		5EC809072CDCC8F0009E7BBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC809062CDCC8F0009E7BBB /* Preview Assets.xcassets */; };
+		5EC809112CDCC8F1009E7BBB /* QuickLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC809102CDCC8F1009E7BBB /* QuickLinkTests.swift */; };
+		5EC8091B2CDCC8F1009E7BBB /* QuickLinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8091A2CDCC8F1009E7BBB /* QuickLinkUITests.swift */; };
+		5EC8091D2CDCC8F1009E7BBB /* QuickLinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8091C2CDCC8F1009E7BBB /* QuickLinkUITestsLaunchTests.swift */; };
+		5EC8092A2CDCCF40009E7BBB /* Webview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC809292CDCCF40009E7BBB /* Webview.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EC8090D2CDCC8F1009E7BBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EC808F42CDCC8E9009E7BBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EC808FB2CDCC8E9009E7BBB;
+			remoteInfo = QuickLink;
+		};
+		5EC809172CDCC8F1009E7BBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EC808F42CDCC8E9009E7BBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EC808FB2CDCC8E9009E7BBB;
+			remoteInfo = QuickLink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EC808FC2CDCC8E9009E7BBB /* QuickLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC808FF2CDCC8E9009E7BBB /* QuickLinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLinkApp.swift; sourceTree = "<group>"; };
+		5EC809012CDCC8E9009E7BBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5EC809032CDCC8F0009E7BBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EC809062CDCC8F0009E7BBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5EC8090C2CDCC8F1009E7BBB /* QuickLinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickLinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC809102CDCC8F1009E7BBB /* QuickLinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLinkTests.swift; sourceTree = "<group>"; };
+		5EC809162CDCC8F1009E7BBB /* QuickLinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickLinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC8091A2CDCC8F1009E7BBB /* QuickLinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLinkUITests.swift; sourceTree = "<group>"; };
+		5EC8091C2CDCC8F1009E7BBB /* QuickLinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5EC809292CDCCF40009E7BBB /* Webview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webview.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EC808F92CDCC8E9009E7BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC809092CDCC8F1009E7BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC809132CDCC8F1009E7BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EC808F32CDCC8E9009E7BBB = {
+			isa = PBXGroup;
+			children = (
+				5EC808FE2CDCC8E9009E7BBB /* QuickLink */,
+				5EC8090F2CDCC8F1009E7BBB /* QuickLinkTests */,
+				5EC809192CDCC8F1009E7BBB /* QuickLinkUITests */,
+				5EC808FD2CDCC8E9009E7BBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EC808FD2CDCC8E9009E7BBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EC808FC2CDCC8E9009E7BBB /* QuickLink.app */,
+				5EC8090C2CDCC8F1009E7BBB /* QuickLinkTests.xctest */,
+				5EC809162CDCC8F1009E7BBB /* QuickLinkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EC808FE2CDCC8E9009E7BBB /* QuickLink */ = {
+			isa = PBXGroup;
+			children = (
+				5EC808FF2CDCC8E9009E7BBB /* QuickLinkApp.swift */,
+				5EC809012CDCC8E9009E7BBB /* ContentView.swift */,
+				5EC809032CDCC8F0009E7BBB /* Assets.xcassets */,
+				5EC809052CDCC8F0009E7BBB /* Preview Content */,
+				5EC809292CDCCF40009E7BBB /* Webview.swift */,
+			);
+			path = QuickLink;
+			sourceTree = "<group>";
+		};
+		5EC809052CDCC8F0009E7BBB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5EC809062CDCC8F0009E7BBB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5EC8090F2CDCC8F1009E7BBB /* QuickLinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EC809102CDCC8F1009E7BBB /* QuickLinkTests.swift */,
+			);
+			path = QuickLinkTests;
+			sourceTree = "<group>";
+		};
+		5EC809192CDCC8F1009E7BBB /* QuickLinkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EC8091A2CDCC8F1009E7BBB /* QuickLinkUITests.swift */,
+				5EC8091C2CDCC8F1009E7BBB /* QuickLinkUITestsLaunchTests.swift */,
+			);
+			path = QuickLinkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EC808FB2CDCC8E9009E7BBB /* QuickLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC809202CDCC8F1009E7BBB /* Build configuration list for PBXNativeTarget "QuickLink" */;
+			buildPhases = (
+				5EC808F82CDCC8E9009E7BBB /* Sources */,
+				5EC808F92CDCC8E9009E7BBB /* Frameworks */,
+				5EC808FA2CDCC8E9009E7BBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickLink;
+			productName = QuickLink;
+			productReference = 5EC808FC2CDCC8E9009E7BBB /* QuickLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EC8090B2CDCC8F1009E7BBB /* QuickLinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC809232CDCC8F1009E7BBB /* Build configuration list for PBXNativeTarget "QuickLinkTests" */;
+			buildPhases = (
+				5EC809082CDCC8F1009E7BBB /* Sources */,
+				5EC809092CDCC8F1009E7BBB /* Frameworks */,
+				5EC8090A2CDCC8F1009E7BBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EC8090E2CDCC8F1009E7BBB /* PBXTargetDependency */,
+			);
+			name = QuickLinkTests;
+			productName = QuickLinkTests;
+			productReference = 5EC8090C2CDCC8F1009E7BBB /* QuickLinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EC809152CDCC8F1009E7BBB /* QuickLinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC809262CDCC8F1009E7BBB /* Build configuration list for PBXNativeTarget "QuickLinkUITests" */;
+			buildPhases = (
+				5EC809122CDCC8F1009E7BBB /* Sources */,
+				5EC809132CDCC8F1009E7BBB /* Frameworks */,
+				5EC809142CDCC8F1009E7BBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EC809182CDCC8F1009E7BBB /* PBXTargetDependency */,
+			);
+			name = QuickLinkUITests;
+			productName = QuickLinkUITests;
+			productReference = 5EC809162CDCC8F1009E7BBB /* QuickLinkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EC808F42CDCC8E9009E7BBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					5EC808FB2CDCC8E9009E7BBB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					5EC8090B2CDCC8F1009E7BBB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 5EC808FB2CDCC8E9009E7BBB;
+					};
+					5EC809152CDCC8F1009E7BBB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 5EC808FB2CDCC8E9009E7BBB;
+					};
+				};
+			};
+			buildConfigurationList = 5EC808F72CDCC8E9009E7BBB /* Build configuration list for PBXProject "QuickLink" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EC808F32CDCC8E9009E7BBB;
+			productRefGroup = 5EC808FD2CDCC8E9009E7BBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EC808FB2CDCC8E9009E7BBB /* QuickLink */,
+				5EC8090B2CDCC8F1009E7BBB /* QuickLinkTests */,
+				5EC809152CDCC8F1009E7BBB /* QuickLinkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EC808FA2CDCC8E9009E7BBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC809072CDCC8F0009E7BBB /* Preview Assets.xcassets in Resources */,
+				5EC809042CDCC8F0009E7BBB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC8090A2CDCC8F1009E7BBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC809142CDCC8F1009E7BBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EC808F82CDCC8E9009E7BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC8092A2CDCCF40009E7BBB /* Webview.swift in Sources */,
+				5EC809022CDCC8E9009E7BBB /* ContentView.swift in Sources */,
+				5EC809002CDCC8E9009E7BBB /* QuickLinkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC809082CDCC8F1009E7BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC809112CDCC8F1009E7BBB /* QuickLinkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC809122CDCC8F1009E7BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC8091D2CDCC8F1009E7BBB /* QuickLinkUITestsLaunchTests.swift in Sources */,
+				5EC8091B2CDCC8F1009E7BBB /* QuickLinkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EC8090E2CDCC8F1009E7BBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EC808FB2CDCC8E9009E7BBB /* QuickLink */;
+			targetProxy = 5EC8090D2CDCC8F1009E7BBB /* PBXContainerItemProxy */;
+		};
+		5EC809182CDCC8F1009E7BBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EC808FB2CDCC8E9009E7BBB /* QuickLink */;
+			targetProxy = 5EC809172CDCC8F1009E7BBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5EC8091E2CDCC8F1009E7BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EC8091F2CDCC8F1009E7BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EC809212CDCC8F1009E7BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuickLink/Preview Content\"";
+				DEVELOPMENT_TEAM = H78KYZ2HJ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rathi.QuickLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EC809222CDCC8F1009E7BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuickLink/Preview Content\"";
+				DEVELOPMENT_TEAM = H78KYZ2HJ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rathi.QuickLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EC809242CDCC8F1009E7BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H78KYZ2HJ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rathi.QuickLinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickLink.app/QuickLink";
+			};
+			name = Debug;
+		};
+		5EC809252CDCC8F1009E7BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H78KYZ2HJ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rathi.QuickLinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickLink.app/QuickLink";
+			};
+			name = Release;
+		};
+		5EC809272CDCC8F1009E7BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H78KYZ2HJ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rathi.QuickLinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuickLink;
+			};
+			name = Debug;
+		};
+		5EC809282CDCC8F1009E7BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H78KYZ2HJ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rathi.QuickLinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuickLink;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EC808F72CDCC8E9009E7BBB /* Build configuration list for PBXProject "QuickLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC8091E2CDCC8F1009E7BBB /* Debug */,
+				5EC8091F2CDCC8F1009E7BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC809202CDCC8F1009E7BBB /* Build configuration list for PBXNativeTarget "QuickLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC809212CDCC8F1009E7BBB /* Debug */,
+				5EC809222CDCC8F1009E7BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC809232CDCC8F1009E7BBB /* Build configuration list for PBXNativeTarget "QuickLinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC809242CDCC8F1009E7BBB /* Debug */,
+				5EC809252CDCC8F1009E7BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC809262CDCC8F1009E7BBB /* Build configuration list for PBXNativeTarget "QuickLinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC809272CDCC8F1009E7BBB /* Debug */,
+				5EC809282CDCC8F1009E7BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EC808F42CDCC8E9009E7BBB /* Project object */;
+}
